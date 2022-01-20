@@ -14,6 +14,10 @@ app.get('/page2', (req, res) => {
   res.send('{ "response": "Hello from The /page2" }')
 })
 
+app.get('/page3', (req, res) => {
+  res.send('{ "response": "Hello from The /page3" }')
+})
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT} ✅`)
 })
